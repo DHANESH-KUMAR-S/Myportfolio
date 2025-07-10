@@ -1,0 +1,55 @@
+.lanyard-wrapper {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  z-index: 1200;
+  width: 100%;
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 32px;
+  padding-top: 0;
+  transform: scale(1);
+  transform-origin: top left;
+  pointer-events: none;
+  /* margin-top: 64px; */
+}
+
+.lanyard-card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255,255,255,0.92);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
+  padding: 18px 12px 12px 12px;
+  min-width: 140px;
+  max-width: 180px;
+  min-height: 180px;
+  pointer-events: none;
+}
+.lanyard-profile {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 2px solid #0074d9;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+}
+.lanyard-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 2px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.lanyard-title {
+  font-size: 0.95rem;
+  color: #0074d9;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.01em;
+} 
